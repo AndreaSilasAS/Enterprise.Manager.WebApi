@@ -28,3 +28,5 @@ C:\Users\Andrea\Source\Repos\AndreaSilasAS\Enterprise.Manager.WebApi\Enterprise.
 C:\Users\Andrea\Source\Repos\AndreaSilasAS\Enterprise.Manager.WebApi\Enterprise.Manager.DB.Infrastructure\obj\Debug\net6.0\refint\Enterprise.Manager.DB.Infrastructure.dll
 C:\Users\Andrea\Source\Repos\AndreaSilasAS\Enterprise.Manager.WebApi\Enterprise.Manager.DB.Infrastructure\obj\Debug\net6.0\Enterprise.Manager.DB.Infrastructure.pdb
 C:\Users\Andrea\Source\Repos\AndreaSilasAS\Enterprise.Manager.WebApi\Enterprise.Manager.DB.Infrastructure\obj\Debug\net6.0\ref\Enterprise.Manager.DB.Infrastructure.dll
+C:\Users\Andrea\source\repos\AndreaSilasAS\Enterprise.Manager.WebApi\Enterprise.Manager.DB.Infrastructure\bin\Debug\net6.0\Enterprise.Manager.DB.Infrastructure.runtimeconfig.json
+C:\Users\Andrea\source\repos\AndreaSilasAS\Enterprise.Manager.WebApi\Enterprise.Manager.DB.Infrastructure\obj\Debug\net6.0\Enterprise.Manager.DB.Infrastructure.genruntimeconfig.cache

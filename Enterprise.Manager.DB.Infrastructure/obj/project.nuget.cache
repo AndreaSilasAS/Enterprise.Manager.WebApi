@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "p0Efc/TosgFJL5ljUiN3Fo8EoFrs+Gipv7QEDVjn2zrcGoxTRrRIiydwd0MQBJkb3RFn5637zC+zEfRHch0wNw==",
+  "dgSpecHash": "4oELU8AvQ8opj1+L3NtoQaPVbgF+UNg5BbynPE5Iq85PH8GksEYjLNYVPZNqCIizw+gc6fYAYvkxr+qL9teViw==",
   "success": true,
   "projectFilePath": "C:\\Users\\Andrea\\source\\repos\\AndreaSilasAS\\Enterprise.Manager.WebApi\\Enterprise.Manager.DB.Infrastructure\\Enterprise.Manager.DB.Infrastructure.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Andrea\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Andrea\\.nuget\\packages\\microsoft.aspnetcore.hosting.abstractions\\2.2.0\\microsoft.aspnetcore.hosting.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\Andrea\\.nuget\\packages\\microsoft.aspnetcore.hosting.server.abstractions\\2.2.0\\microsoft.aspnetcore.hosting.server.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\Andrea\\.nuget\\packages\\microsoft.aspnetcore.http.abstractions\\2.2.0\\microsoft.aspnetcore.http.abstractions.2.2.0.nupkg.sha512",
@@ -15,8 +16,10 @@
     "C:\\Users\\Andrea\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.36\\microsoft.entityframeworkcore.6.0.36.nupkg.sha512",
     "C:\\Users\\Andrea\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\6.0.36\\microsoft.entityframeworkcore.abstractions.6.0.36.nupkg.sha512",
     "C:\\Users\\Andrea\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\6.0.36\\microsoft.entityframeworkcore.analyzers.6.0.36.nupkg.sha512",
+    "C:\\Users\\Andrea\\.nuget\\packages\\microsoft.entityframeworkcore.design\\6.0.36\\microsoft.entityframeworkcore.design.6.0.36.nupkg.sha512",
     "C:\\Users\\Andrea\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\6.0.36\\microsoft.entityframeworkcore.relational.6.0.36.nupkg.sha512",
     "C:\\Users\\Andrea\\.nuget\\packages\\microsoft.entityframeworkcore.sqlserver\\6.0.36\\microsoft.entityframeworkcore.sqlserver.6.0.36.nupkg.sha512",
+    "C:\\Users\\Andrea\\.nuget\\packages\\microsoft.entityframeworkcore.tools\\6.0.36\\microsoft.entityframeworkcore.tools.6.0.36.nupkg.sha512",
     "C:\\Users\\Andrea\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\6.0.1\\microsoft.extensions.caching.abstractions.6.0.1.nupkg.sha512",
     "C:\\Users\\Andrea\\.nuget\\packages\\microsoft.extensions.caching.memory\\6.0.3\\microsoft.extensions.caching.memory.6.0.3.nupkg.sha512",
     "C:\\Users\\Andrea\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\9.0.0\\microsoft.extensions.configuration.abstractions.9.0.0.nupkg.sha512",

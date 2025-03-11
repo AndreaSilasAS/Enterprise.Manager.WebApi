@@ -1,11 +1,13 @@
 using Enterprise.Manager.Contracts.ServiceLibrary.Contracts;
 using Enterprise.Manager.Contracts.ServiceLibrary.Implementations;
+using Enterprise.Manager.DB.Infrastructure.DBContext.DBContext;
 using Enterprise.Manager.DB.Infrastructure.Repositories;
 using Enterprise.Manager.Library.Contracts;
 using Enterprise.Manager.Library.Implementations;
 using Enterprise.Manager.Library.InfraestructureContracts.UnitOfWork;
 using Enterprise.Manager.ServiceLibrary.Mapper.ProfileMapper;
 using Enterprise.Manager.WebApi.Authentication;
+using Microsoft.EntityFrameworkCore;
 using Serilog;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -32,6 +34,7 @@ builder.Services.AddControllers();
 builder.Services.AddTransient<IEnterpriseApplicationService, EnterpriseApplicationService>();
 builder.Services.AddTransient<IEnterpriseDomainService, EnterpriseDomainService>();
 builder.Services.AddTransient<ICompanyRepository, CompanyRepository>();
+builder.Services.AddTransient<EnterpriseDbContext>();
 
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
@@ -63,6 +66,12 @@ builder.Services.AddSwaggerGen(c=>
 
 var app = builder.Build();
 app.UseCors("AllowLocalhost");
+
+using (var scope = app.Services.CreateScope())
+{
+    var dbContext = scope.ServiceProvider.GetRequiredService<EnterpriseDbContext>();
+    dbContext.Database.Migrate();
+}
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
