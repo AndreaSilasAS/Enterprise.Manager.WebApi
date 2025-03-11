@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "g67RG0TXeceRiS+e0Fg6kfej1sTTzkt4TMQs0vHeN9sfty7IoUqh8iFNp1lBp67Y0AZjX8QsCh2gMgeMiyTsOQ==",
+  "dgSpecHash": "ORKxupwzSXXkkyl8WBn9yr8yDPy2kk3nmQR0ihy/BGpfZbKSYARZA8W2TRi7/6hHvq+DR6mtYpqW7Yd6iifpVQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Andrea\\Source\\Repos\\AndreaSilasAS\\Enterprise.Manager.WebApi\\Enterprise.Manager.WebApi.UnitTest\\Enterprise.Manager.WebApi.UnitTest.csproj",
+  "projectFilePath": "C:\\Users\\Andrea\\source\\repos\\AndreaSilasAS\\Enterprise.Manager.WebApi\\Enterprise.Manager.WebApi.UnitTest\\Enterprise.Manager.WebApi.UnitTest.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Andrea\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\Andrea\\.nuget\\packages\\castle.core\\5.1.1\\castle.core.5.1.1.nupkg.sha512",

@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Andrea\\Source\\Repos\\AndreaSilasAS\\Enterprise.Manager.WebApi\\Enterprise.Manager.Library.UnitTest\\Enterprise.Manager.Library.UnitTest.csproj": {}
+    "C:\\Users\\Andrea\\source\\repos\\AndreaSilasAS\\Enterprise.Manager.WebApi\\Enterprise.Manager.Library.UnitTest\\Enterprise.Manager.Library.UnitTest.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Andrea\\Source\\Repos\\AndreaSilasAS\\Enterprise.Manager.WebApi\\Company.Manager.Library\\Enterprise.Manager.Library.csproj": {
+    "C:\\Users\\Andrea\\source\\repos\\AndreaSilasAS\\Enterprise.Manager.WebApi\\Company.Manager.Library\\Enterprise.Manager.Library.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Andrea\\Source\\Repos\\AndreaSilasAS\\Enterprise.Manager.WebApi\\Company.Manager.Library\\Enterprise.Manager.Library.csproj",
+        "projectUniqueName": "C:\\Users\\Andrea\\source\\repos\\AndreaSilasAS\\Enterprise.Manager.WebApi\\Company.Manager.Library\\Enterprise.Manager.Library.csproj",
         "projectName": "Enterprise.Manager.Library",
-        "projectPath": "C:\\Users\\Andrea\\Source\\Repos\\AndreaSilasAS\\Enterprise.Manager.WebApi\\Company.Manager.Library\\Enterprise.Manager.Library.csproj",
+        "projectPath": "C:\\Users\\Andrea\\source\\repos\\AndreaSilasAS\\Enterprise.Manager.WebApi\\Company.Manager.Library\\Enterprise.Manager.Library.csproj",
         "packagesPath": "C:\\Users\\Andrea\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\Andrea\\Source\\Repos\\AndreaSilasAS\\Enterprise.Manager.WebApi\\Company.Manager.Library\\obj\\",
         "projectStyle": "PackageReference",
@@ -27,8 +27,7 @@
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "C:\\Program Files\\dotnet\\library-packs": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://vueling.pkgs.visualstudio.com/_packaging/vy-nuget/nuget/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
@@ -79,14 +78,14 @@
         }
       }
     },
-    "C:\\Users\\Andrea\\Source\\Repos\\AndreaSilasAS\\Enterprise.Manager.WebApi\\Enterprise.Manager.Library.UnitTest\\Enterprise.Manager.Library.UnitTest.csproj": {
+    "C:\\Users\\Andrea\\source\\repos\\AndreaSilasAS\\Enterprise.Manager.WebApi\\Enterprise.Manager.Library.UnitTest\\Enterprise.Manager.Library.UnitTest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Andrea\\Source\\Repos\\AndreaSilasAS\\Enterprise.Manager.WebApi\\Enterprise.Manager.Library.UnitTest\\Enterprise.Manager.Library.UnitTest.csproj",
+        "projectUniqueName": "C:\\Users\\Andrea\\source\\repos\\AndreaSilasAS\\Enterprise.Manager.WebApi\\Enterprise.Manager.Library.UnitTest\\Enterprise.Manager.Library.UnitTest.csproj",
         "projectName": "Enterprise.Manager.Library.UnitTest",
-        "projectPath": "C:\\Users\\Andrea\\Source\\Repos\\AndreaSilasAS\\Enterprise.Manager.WebApi\\Enterprise.Manager.Library.UnitTest\\Enterprise.Manager.Library.UnitTest.csproj",
+        "projectPath": "C:\\Users\\Andrea\\source\\repos\\AndreaSilasAS\\Enterprise.Manager.WebApi\\Enterprise.Manager.Library.UnitTest\\Enterprise.Manager.Library.UnitTest.csproj",
         "packagesPath": "C:\\Users\\Andrea\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Andrea\\Source\\Repos\\AndreaSilasAS\\Enterprise.Manager.WebApi\\Enterprise.Manager.Library.UnitTest\\obj\\",
+        "outputPath": "C:\\Users\\Andrea\\source\\repos\\AndreaSilasAS\\Enterprise.Manager.WebApi\\Enterprise.Manager.Library.UnitTest\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -102,15 +101,14 @@
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "C:\\Program Files\\dotnet\\library-packs": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://vueling.pkgs.visualstudio.com/_packaging/vy-nuget/nuget/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Andrea\\Source\\Repos\\AndreaSilasAS\\Enterprise.Manager.WebApi\\Company.Manager.Library\\Enterprise.Manager.Library.csproj": {
-                "projectPath": "C:\\Users\\Andrea\\Source\\Repos\\AndreaSilasAS\\Enterprise.Manager.WebApi\\Company.Manager.Library\\Enterprise.Manager.Library.csproj"
+              "C:\\Users\\Andrea\\source\\repos\\AndreaSilasAS\\Enterprise.Manager.WebApi\\Company.Manager.Library\\Enterprise.Manager.Library.csproj": {
+                "projectPath": "C:\\Users\\Andrea\\source\\repos\\AndreaSilasAS\\Enterprise.Manager.WebApi\\Company.Manager.Library\\Enterprise.Manager.Library.csproj"
               }
             }
           }

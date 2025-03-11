@@ -1722,9 +1722,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Andrea\\Source\\Repos\\AndreaSilasAS\\Enterprise.Manager.WebApi\\Enterprise.Manager.Extensions\\Enterprise.Manager.Extensions.csproj",
+      "projectUniqueName": "C:\\Users\\Andrea\\source\\repos\\AndreaSilasAS\\Enterprise.Manager.WebApi\\Enterprise.Manager.Extensions\\Enterprise.Manager.Extensions.csproj",
       "projectName": "Enterprise.Manager.Extensions",
-      "projectPath": "C:\\Users\\Andrea\\Source\\Repos\\AndreaSilasAS\\Enterprise.Manager.WebApi\\Enterprise.Manager.Extensions\\Enterprise.Manager.Extensions.csproj",
+      "projectPath": "C:\\Users\\Andrea\\source\\repos\\AndreaSilasAS\\Enterprise.Manager.WebApi\\Enterprise.Manager.Extensions\\Enterprise.Manager.Extensions.csproj",
       "packagesPath": "C:\\Users\\Andrea\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Andrea\\Source\\Repos\\AndreaSilasAS\\Enterprise.Manager.WebApi\\Enterprise.Manager.Extensions\\obj\\",
       "projectStyle": "PackageReference",
@@ -1742,8 +1742,7 @@
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "C:\\Program Files\\dotnet\\library-packs": {},
-        "https://api.nuget.org/v3/index.json": {},
-        "https://vueling.pkgs.visualstudio.com/_packaging/vy-nuget/nuget/v3/index.json": {}
+        "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net6.0": {

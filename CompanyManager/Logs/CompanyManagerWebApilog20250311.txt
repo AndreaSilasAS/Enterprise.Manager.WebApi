@@ -1322,3 +1322,14 @@ Error Number:2628,State:1,Class:16
 2025-03-11 12:31:21.753 +01:00 [INF] Executed action Enterprise.Manager.WebApi.Controllers.EnterpriseController.GetAllCompanies (Enterprise.Manager.WebApi) in 9.1615ms
 2025-03-11 12:31:21.753 +01:00 [INF] Executed endpoint 'Enterprise.Manager.WebApi.Controllers.EnterpriseController.GetAllCompanies (Enterprise.Manager.WebApi)'
 2025-03-11 12:31:21.753 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44388/api/enterprise application/json - - 200 - application/json;+charset=utf-8 9.7597ms
+2025-03-11 13:24:31.457 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-11 13:24:31.519 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44388/swagger/index.html - -
+2025-03-11 13:24:31.530 +01:00 [INF] Hosting environment: Development
+2025-03-11 13:24:31.531 +01:00 [INF] Content root path: C:\Users\Andrea\Source\Repos\AndreaSilasAS\Enterprise.Manager.WebApi\CompanyManager\
+2025-03-11 13:24:33.960 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44388/_framework/aspnetcore-browser-refresh.js - -
+2025-03-11 13:24:33.977 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44388/swagger/index.html - - - 200 - text/html;charset=utf-8 2467.3148ms
+2025-03-11 13:24:33.999 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44388/_vs/browserLink - -
+2025-03-11 13:24:34.023 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44388/_framework/aspnetcore-browser-refresh.js - - - 200 12020 application/javascript;+charset=utf-8 30.9782ms
+2025-03-11 13:24:34.263 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44388/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 263.5537ms
+2025-03-11 13:24:34.417 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44388/swagger/v1/swagger.json - -
+2025-03-11 13:24:34.764 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44388/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 347.1531ms

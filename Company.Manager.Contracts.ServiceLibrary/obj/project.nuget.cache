@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Sag7JCqmDbzXQA3jo1gXVNx1GxbfXxw9PAoS/2CXKhcMqF9pNLx7BsEZ4T8VtkSs78P7c8dRSjaIqBF/Lj9ldg==",
+  "dgSpecHash": "ZdJnAxHM/pV2W6koLxDei7ijATT0KRuNoJA3b1h54BwazxdELkX6OODTwP/eR5ycdF4Wj+lfhb0EQOjUYZkeyA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Andrea\\Source\\Repos\\AndreaSilasAS\\Enterprise.Manager.WebApi\\Company.Manager.Contracts.ServiceLibrary\\Enterprise.Manager.ServiceLibrary.csproj",
+  "projectFilePath": "C:\\Users\\Andrea\\source\\repos\\AndreaSilasAS\\Enterprise.Manager.WebApi\\Company.Manager.Contracts.ServiceLibrary\\Enterprise.Manager.ServiceLibrary.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Andrea\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\Andrea\\.nuget\\packages\\microsoft.aspnetcore.hosting.abstractions\\2.2.0\\microsoft.aspnetcore.hosting.abstractions.2.2.0.nupkg.sha512",
