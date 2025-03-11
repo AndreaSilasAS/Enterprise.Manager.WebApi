@@ -22,3 +22,15 @@ C:\Users\Andrea\source\Enterprise.Manager.WebAPI\Company.Manager.Library\obj\Deb
 C:\Users\Andrea\source\Enterprise.Manager.WebAPI\Company.Manager.Library\obj\Debug\net6.0\refint\Enterprise.Manager.Library.dll
 C:\Users\Andrea\source\Enterprise.Manager.WebAPI\Company.Manager.Library\obj\Debug\net6.0\Enterprise.Manager.Library.pdb
 C:\Users\Andrea\source\Enterprise.Manager.WebAPI\Company.Manager.Library\obj\Debug\net6.0\ref\Enterprise.Manager.Library.dll
+C:\Users\Andrea\Source\Repos\AndreaSilasAS\Enterprise.Manager.WebApi\Company.Manager.Library\bin\Debug\net6.0\Enterprise.Manager.Library.deps.json
+C:\Users\Andrea\Source\Repos\AndreaSilasAS\Enterprise.Manager.WebApi\Company.Manager.Library\bin\Debug\net6.0\Enterprise.Manager.Library.dll
+C:\Users\Andrea\Source\Repos\AndreaSilasAS\Enterprise.Manager.WebApi\Company.Manager.Library\bin\Debug\net6.0\Enterprise.Manager.Library.pdb
+C:\Users\Andrea\Source\Repos\AndreaSilasAS\Enterprise.Manager.WebApi\Company.Manager.Library\obj\Debug\net6.0\Enterprise.Manager.Library.csproj.AssemblyReference.cache
+C:\Users\Andrea\Source\Repos\AndreaSilasAS\Enterprise.Manager.WebApi\Company.Manager.Library\obj\Debug\net6.0\Enterprise.Manager.Library.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Andrea\Source\Repos\AndreaSilasAS\Enterprise.Manager.WebApi\Company.Manager.Library\obj\Debug\net6.0\Enterprise.Manager.Library.AssemblyInfoInputs.cache
+C:\Users\Andrea\Source\Repos\AndreaSilasAS\Enterprise.Manager.WebApi\Company.Manager.Library\obj\Debug\net6.0\Enterprise.Manager.Library.AssemblyInfo.cs
+C:\Users\Andrea\Source\Repos\AndreaSilasAS\Enterprise.Manager.WebApi\Company.Manager.Library\obj\Debug\net6.0\Enterprise.Manager.Library.csproj.CoreCompileInputs.cache
+C:\Users\Andrea\Source\Repos\AndreaSilasAS\Enterprise.Manager.WebApi\Company.Manager.Library\obj\Debug\net6.0\Enterprise.Manager.Library.dll
+C:\Users\Andrea\Source\Repos\AndreaSilasAS\Enterprise.Manager.WebApi\Company.Manager.Library\obj\Debug\net6.0\refint\Enterprise.Manager.Library.dll
+C:\Users\Andrea\Source\Repos\AndreaSilasAS\Enterprise.Manager.WebApi\Company.Manager.Library\obj\Debug\net6.0\Enterprise.Manager.Library.pdb
+C:\Users\Andrea\Source\Repos\AndreaSilasAS\Enterprise.Manager.WebApi\Company.Manager.Library\obj\Debug\net6.0\ref\Enterprise.Manager.Library.dll

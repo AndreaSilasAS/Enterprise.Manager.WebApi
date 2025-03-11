@@ -9604,11 +9604,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Andrea\\source\\Enterprise.Manager.WebAPI\\Enterprise.Manager.WebApi.UnitTest\\Enterprise.Manager.WebApi.UnitTest.csproj",
+      "projectUniqueName": "C:\\Users\\Andrea\\Source\\Repos\\AndreaSilasAS\\Enterprise.Manager.WebApi\\Enterprise.Manager.WebApi.UnitTest\\Enterprise.Manager.WebApi.UnitTest.csproj",
       "projectName": "Enterprise.Manager.WebApi.UnitTest",
-      "projectPath": "C:\\Users\\Andrea\\source\\Enterprise.Manager.WebAPI\\Enterprise.Manager.WebApi.UnitTest\\Enterprise.Manager.WebApi.UnitTest.csproj",
+      "projectPath": "C:\\Users\\Andrea\\Source\\Repos\\AndreaSilasAS\\Enterprise.Manager.WebApi\\Enterprise.Manager.WebApi.UnitTest\\Enterprise.Manager.WebApi.UnitTest.csproj",
       "packagesPath": "C:\\Users\\Andrea\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Andrea\\source\\Enterprise.Manager.WebAPI\\Enterprise.Manager.WebApi.UnitTest\\obj\\",
+      "outputPath": "C:\\Users\\Andrea\\Source\\Repos\\AndreaSilasAS\\Enterprise.Manager.WebApi\\Enterprise.Manager.WebApi.UnitTest\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -9631,11 +9631,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\Andrea\\source\\Enterprise.Manager.WebAPI\\Company.Manager.Contracts.ServiceLibrary\\Enterprise.Manager.ServiceLibrary.csproj": {
-              "projectPath": "C:\\Users\\Andrea\\source\\Enterprise.Manager.WebAPI\\Company.Manager.Contracts.ServiceLibrary\\Enterprise.Manager.ServiceLibrary.csproj"
+            "C:\\Users\\Andrea\\Source\\Repos\\AndreaSilasAS\\Enterprise.Manager.WebApi\\Company.Manager.Contracts.ServiceLibrary\\Enterprise.Manager.ServiceLibrary.csproj": {
+              "projectPath": "C:\\Users\\Andrea\\Source\\Repos\\AndreaSilasAS\\Enterprise.Manager.WebApi\\Company.Manager.Contracts.ServiceLibrary\\Enterprise.Manager.ServiceLibrary.csproj"
             },
-            "C:\\Users\\Andrea\\source\\Enterprise.Manager.WebAPI\\CompanyManager\\Enterprise.Manager.WebApi.csproj": {
-              "projectPath": "C:\\Users\\Andrea\\source\\Enterprise.Manager.WebAPI\\CompanyManager\\Enterprise.Manager.WebApi.csproj"
+            "C:\\Users\\Andrea\\Source\\Repos\\AndreaSilasAS\\Enterprise.Manager.WebApi\\CompanyManager\\Enterprise.Manager.WebApi.csproj": {
+              "projectPath": "C:\\Users\\Andrea\\Source\\Repos\\AndreaSilasAS\\Enterprise.Manager.WebApi\\CompanyManager\\Enterprise.Manager.WebApi.csproj"
             }
           }
         }

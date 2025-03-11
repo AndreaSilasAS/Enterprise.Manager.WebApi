@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "OW0ebGvCx+7MEXWX1t+/rk+ZPJb4wGujQNnA8hL8MOILYmOz1Abq6WeivlhcggYU3ARYaIlpqLtHO0S/JTZXrQ==",
+  "dgSpecHash": "UQpqIU3SpnKpmC4gYkU9P89hu5kGPPOyM9Dg23RJZBHO7dzfIAILIzU1PXQ4uKDYsbUcR1XF8LmS2BEmuIqYeA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Andrea\\source\\Enterprise.Manager.WebAPI\\Enterprise.Manager.DB.Infrastructure\\Enterprise.Manager.DB.Infrastructure.csproj",
+  "projectFilePath": "C:\\Users\\Andrea\\Source\\Repos\\AndreaSilasAS\\Enterprise.Manager.WebApi\\Enterprise.Manager.DB.Infrastructure\\Enterprise.Manager.DB.Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Andrea\\.nuget\\packages\\microsoft.aspnetcore.hosting.abstractions\\2.2.0\\microsoft.aspnetcore.hosting.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\Andrea\\.nuget\\packages\\microsoft.aspnetcore.hosting.server.abstractions\\2.2.0\\microsoft.aspnetcore.hosting.server.abstractions.2.2.0.nupkg.sha512",

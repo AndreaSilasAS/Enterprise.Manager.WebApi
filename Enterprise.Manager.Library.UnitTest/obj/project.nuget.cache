@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "xzveSP3GyxZuX6PIP+OZKHXAaBLhNEu5zTuRienhdMithJcqMckRy2rtPqoWXQe+nrdZBQgGnHj5vYEVJv0XYA==",
+  "dgSpecHash": "riiv+x7dFH2/TxLOUlzNbzJ7mLz1OpG/6b/sQuqnKsAdZZ7TqJdppSMWgnNfulErqiWN7gkebK2uUmHdKTlVRg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Andrea\\source\\Enterprise.Manager.WebAPI\\Enterprise.Manager.Library.UnitTest\\Enterprise.Manager.Library.UnitTest.csproj",
+  "projectFilePath": "C:\\Users\\Andrea\\Source\\Repos\\AndreaSilasAS\\Enterprise.Manager.WebApi\\Enterprise.Manager.Library.UnitTest\\Enterprise.Manager.Library.UnitTest.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Andrea\\.nuget\\packages\\castle.core\\5.1.1\\castle.core.5.1.1.nupkg.sha512",
     "C:\\Users\\Andrea\\.nuget\\packages\\coverlet.collector\\3.1.2\\coverlet.collector.3.1.2.nupkg.sha512",

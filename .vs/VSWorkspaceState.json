@@ -1,6 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Company.Manager.Library",
+    "\\Company.Manager.Library\\Exceptions"
   ],
+  "SelectedNode": "\\Company.Manager.Library\\Exceptions\\InvalidIsinException.cs",
   "PreviewInSolutionExplorer": false
 }
