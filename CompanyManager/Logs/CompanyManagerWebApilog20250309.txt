@@ -1,0 +1,269 @@
+2025-03-09 17:37:44.111 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-09 17:37:44.149 +01:00 [INF] Hosting environment: Development
+2025-03-09 17:37:44.150 +01:00 [INF] Content root path: C:\Users\Andrea\source\Enterprise.Manager.WebAPI\CompanyManager\
+2025-03-09 17:37:44.194 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44388/swagger/index.html - -
+2025-03-09 17:37:45.267 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44388/_framework/aspnetcore-browser-refresh.js - -
+2025-03-09 17:37:45.271 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44388/swagger/index.html - - - 200 - text/html;charset=utf-8 1084.5248ms
+2025-03-09 17:37:45.278 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44388/_framework/aspnetcore-browser-refresh.js - - - 200 12020 application/javascript;+charset=utf-8 7.9150ms
+2025-03-09 17:37:45.312 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44388/_vs/browserLink - -
+2025-03-09 17:37:45.365 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44388/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 52.3175ms
+2025-03-09 17:37:45.438 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44388/swagger/v1/swagger.json - -
+2025-03-09 17:37:45.469 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44388/swagger/favicon-32x32.png - -
+2025-03-09 17:37:45.488 +01:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2025-03-09 17:37:45.489 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44388/swagger/favicon-32x32.png - - - 200 628 image/png 19.8472ms
+2025-03-09 17:37:45.590 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44388/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 151.8452ms
+2025-03-09 17:38:12.230 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44388/api/enterprise - -
+2025-03-09 17:38:14.881 +01:00 [INF] Executing endpoint 'Enterprise.Manager.WebApi.Controllers.EnterpriseController.GetAllCompanies (Enterprise.Manager.WebApi)'
+2025-03-09 17:38:14.909 +01:00 [INF] Route matched with {action = "GetAllCompanies", controller = "Enterprise"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllCompanies() on controller Enterprise.Manager.WebApi.Controllers.EnterpriseController (Enterprise.Manager.WebApi).
+2025-03-09 17:38:16.329 +01:00 [INF] [EnterpriseController][MoveNext] Begin action.
+2025-03-09 17:38:16.834 +01:00 [ERR] [EnterpriseController][MoveNext] Ex: System.MissingMethodException: Method not found: '!!0 AutoMapper.IMapper.Map(System.Object)'.
+   at Enterprise.Manager.Contracts.ServiceLibrary.Implementations.EnterpriseApplicationService.GetAllCompanies()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Enterprise.Manager.Contracts.ServiceLibrary.Implementations.EnterpriseApplicationService.GetAllCompanies()
+   at Enterprise.Manager.WebApi.Controllers.EnterpriseController.GetAllCompanies() in C:\Users\Andrea\source\Enterprise.Manager.WebAPI\CompanyManager\Controllers\EnterpriseController.cs:line 46 
+2025-03-09 17:38:16.839 +01:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2025-03-09 17:38:16.845 +01:00 [INF] Executed action Enterprise.Manager.WebApi.Controllers.EnterpriseController.GetAllCompanies (Enterprise.Manager.WebApi) in 1932.0032ms
+2025-03-09 17:38:16.848 +01:00 [INF] Executed endpoint 'Enterprise.Manager.WebApi.Controllers.EnterpriseController.GetAllCompanies (Enterprise.Manager.WebApi)'
+2025-03-09 17:38:16.848 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44388/api/enterprise - - - 500 - text/plain;+charset=utf-8 4618.3193ms
+2025-03-09 17:38:37.933 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44388/api/enterprise - -
+2025-03-09 17:38:45.825 +01:00 [INF] Executing endpoint 'Enterprise.Manager.WebApi.Controllers.EnterpriseController.GetAllCompanies (Enterprise.Manager.WebApi)'
+2025-03-09 17:38:45.826 +01:00 [INF] Route matched with {action = "GetAllCompanies", controller = "Enterprise"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllCompanies() on controller Enterprise.Manager.WebApi.Controllers.EnterpriseController (Enterprise.Manager.WebApi).
+2025-03-09 17:38:46.655 +01:00 [INF] [EnterpriseController][MoveNext] Begin action.
+2025-03-09 17:38:52.803 +01:00 [ERR] [EnterpriseController][MoveNext] Ex: System.MissingMethodException: Method not found: '!!0 AutoMapper.IMapper.Map(System.Object)'.
+   at Enterprise.Manager.Contracts.ServiceLibrary.Implementations.EnterpriseApplicationService.GetAllCompanies()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Enterprise.Manager.Contracts.ServiceLibrary.Implementations.EnterpriseApplicationService.GetAllCompanies()
+   at Enterprise.Manager.WebApi.Controllers.EnterpriseController.GetAllCompanies() 
+2025-03-09 17:38:52.803 +01:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2025-03-09 17:38:52.804 +01:00 [INF] Executed action Enterprise.Manager.WebApi.Controllers.EnterpriseController.GetAllCompanies (Enterprise.Manager.WebApi) in 6977.4837ms
+2025-03-09 17:38:52.804 +01:00 [INF] Executed endpoint 'Enterprise.Manager.WebApi.Controllers.EnterpriseController.GetAllCompanies (Enterprise.Manager.WebApi)'
+2025-03-09 17:38:52.804 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44388/api/enterprise - - - 500 - text/plain;+charset=utf-8 14870.8394ms
+2025-03-09 17:39:04.747 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44388/api/enterprise - -
+2025-03-09 17:39:07.323 +01:00 [INF] Executing endpoint 'Enterprise.Manager.WebApi.Controllers.EnterpriseController.GetAllCompanies (Enterprise.Manager.WebApi)'
+2025-03-09 17:39:07.326 +01:00 [INF] Route matched with {action = "GetAllCompanies", controller = "Enterprise"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllCompanies() on controller Enterprise.Manager.WebApi.Controllers.EnterpriseController (Enterprise.Manager.WebApi).
+2025-03-09 17:39:08.295 +01:00 [INF] [EnterpriseController][MoveNext] Begin action.
+2025-03-09 17:39:08.322 +01:00 [ERR] [EnterpriseController][MoveNext] Ex: System.MissingMethodException: Method not found: '!!0 AutoMapper.IMapper.Map(System.Object)'.
+   at Enterprise.Manager.Contracts.ServiceLibrary.Implementations.EnterpriseApplicationService.GetAllCompanies()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Enterprise.Manager.Contracts.ServiceLibrary.Implementations.EnterpriseApplicationService.GetAllCompanies()
+   at Enterprise.Manager.WebApi.Controllers.EnterpriseController.GetAllCompanies() 
+2025-03-09 17:39:08.322 +01:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2025-03-09 17:39:08.323 +01:00 [INF] Executed action Enterprise.Manager.WebApi.Controllers.EnterpriseController.GetAllCompanies (Enterprise.Manager.WebApi) in 996.9956ms
+2025-03-09 17:39:08.323 +01:00 [INF] Executed endpoint 'Enterprise.Manager.WebApi.Controllers.EnterpriseController.GetAllCompanies (Enterprise.Manager.WebApi)'
+2025-03-09 17:39:08.323 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44388/api/enterprise - - - 500 - text/plain;+charset=utf-8 3576.0339ms
+2025-03-09 17:39:41.297 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-09 17:39:41.337 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44388/swagger/index.html - -
+2025-03-09 17:39:41.339 +01:00 [INF] Hosting environment: Development
+2025-03-09 17:39:41.341 +01:00 [INF] Content root path: C:\Users\Andrea\source\Enterprise.Manager.WebAPI\CompanyManager\
+2025-03-09 17:39:41.835 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44388/_framework/aspnetcore-browser-refresh.js - -
+2025-03-09 17:39:41.836 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44388/swagger/index.html - - - 200 - text/html;charset=utf-8 506.8210ms
+2025-03-09 17:39:41.870 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44388/_framework/aspnetcore-browser-refresh.js - - - 200 12020 application/javascript;+charset=utf-8 29.1691ms
+2025-03-09 17:39:41.870 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44388/_vs/browserLink - -
+2025-03-09 17:39:41.925 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44388/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 55.0033ms
+2025-03-09 17:39:41.999 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44388/swagger/v1/swagger.json - -
+2025-03-09 17:39:42.142 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44388/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 142.8266ms
+2025-03-09 17:39:59.939 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44388/api/enterprise - -
+2025-03-09 17:40:04.009 +01:00 [INF] Executing endpoint 'Enterprise.Manager.WebApi.Controllers.EnterpriseController.GetAllCompanies (Enterprise.Manager.WebApi)'
+2025-03-09 17:40:04.037 +01:00 [INF] Route matched with {action = "GetAllCompanies", controller = "Enterprise"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllCompanies() on controller Enterprise.Manager.WebApi.Controllers.EnterpriseController (Enterprise.Manager.WebApi).
+2025-03-09 17:40:08.492 +01:00 [INF] [EnterpriseController][MoveNext] Begin action.
+2025-03-09 17:50:12.294 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-09 17:50:12.360 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44388/swagger/index.html - -
+2025-03-09 17:50:12.364 +01:00 [INF] Hosting environment: Development
+2025-03-09 17:50:12.364 +01:00 [INF] Content root path: C:\Users\Andrea\source\Enterprise.Manager.WebAPI\CompanyManager\
+2025-03-09 17:50:12.903 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44388/_framework/aspnetcore-browser-refresh.js - -
+2025-03-09 17:50:12.906 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44388/swagger/index.html - - - 200 - text/html;charset=utf-8 558.9390ms
+2025-03-09 17:50:12.924 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44388/_vs/browserLink - -
+2025-03-09 17:50:12.924 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44388/_framework/aspnetcore-browser-refresh.js - - - 200 12020 application/javascript;+charset=utf-8 9.4980ms
+2025-03-09 17:50:12.979 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44388/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 54.2405ms
+2025-03-09 17:50:13.053 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44388/swagger/v1/swagger.json - -
+2025-03-09 17:50:13.234 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44388/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 181.2317ms
+2025-03-09 17:52:27.336 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44388/api/enterprise - -
+2025-03-09 17:52:32.991 +01:00 [INF] Executing endpoint 'Enterprise.Manager.WebApi.Controllers.EnterpriseController.GetAllCompanies (Enterprise.Manager.WebApi)'
+2025-03-09 17:52:33.032 +01:00 [INF] Route matched with {action = "GetAllCompanies", controller = "Enterprise"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllCompanies() on controller Enterprise.Manager.WebApi.Controllers.EnterpriseController (Enterprise.Manager.WebApi).
+2025-03-09 17:52:33.715 +01:00 [INF] [EnterpriseController][MoveNext] Begin action.
+2025-03-09 17:56:19.597 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-09 17:56:19.655 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44388/swagger/index.html - -
+2025-03-09 17:56:19.661 +01:00 [INF] Hosting environment: Development
+2025-03-09 17:56:19.662 +01:00 [INF] Content root path: C:\Users\Andrea\source\Enterprise.Manager.WebAPI\CompanyManager\
+2025-03-09 17:56:20.513 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44388/_framework/aspnetcore-browser-refresh.js - -
+2025-03-09 17:56:20.583 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44388/_vs/browserLink - -
+2025-03-09 17:56:20.590 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44388/swagger/index.html - - - 200 - text/html;charset=utf-8 949.7503ms
+2025-03-09 17:56:20.592 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44388/_framework/aspnetcore-browser-refresh.js - - - 200 12020 application/javascript;+charset=utf-8 73.2299ms
+2025-03-09 17:56:20.707 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44388/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 123.3355ms
+2025-03-09 17:56:20.820 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44388/swagger/v1/swagger.json - -
+2025-03-09 17:56:21.059 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44388/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 239.0916ms
+2025-03-09 17:56:31.907 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44388/api/enterprise - -
+2025-03-09 17:56:35.202 +01:00 [INF] Executing endpoint 'Enterprise.Manager.WebApi.Controllers.EnterpriseController.GetAllCompanies (Enterprise.Manager.WebApi)'
+2025-03-09 17:56:35.256 +01:00 [INF] Route matched with {action = "GetAllCompanies", controller = "Enterprise"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllCompanies() on controller Enterprise.Manager.WebApi.Controllers.EnterpriseController (Enterprise.Manager.WebApi).
+2025-03-09 17:56:35.615 +01:00 [INF] [EnterpriseController][MoveNext] Begin action.
+2025-03-09 17:56:35.808 +01:00 [ERR] [EnterpriseController][MoveNext] Ex: System.MissingMethodException: Method not found: '!!0 AutoMapper.IMapper.Map(System.Object)'.
+   at Enterprise.Manager.Contracts.ServiceLibrary.Implementations.EnterpriseApplicationService.GetAllCompanies()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Enterprise.Manager.Contracts.ServiceLibrary.Implementations.EnterpriseApplicationService.GetAllCompanies()
+   at Enterprise.Manager.WebApi.Controllers.EnterpriseController.GetAllCompanies() in C:\Users\Andrea\source\Enterprise.Manager.WebAPI\CompanyManager\Controllers\EnterpriseController.cs:line 46 
+2025-03-09 17:56:35.817 +01:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2025-03-09 17:56:35.825 +01:00 [INF] Executed action Enterprise.Manager.WebApi.Controllers.EnterpriseController.GetAllCompanies (Enterprise.Manager.WebApi) in 563.064ms
+2025-03-09 17:56:35.828 +01:00 [INF] Executed endpoint 'Enterprise.Manager.WebApi.Controllers.EnterpriseController.GetAllCompanies (Enterprise.Manager.WebApi)'
+2025-03-09 17:56:35.828 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44388/api/enterprise - - - 500 - text/plain;+charset=utf-8 3920.6504ms
+2025-03-09 17:59:51.390 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44388/api/enterprise - -
+2025-03-09 18:02:52.050 +01:00 [INF] Executing endpoint 'Enterprise.Manager.WebApi.Controllers.EnterpriseController.GetAllCompanies (Enterprise.Manager.WebApi)'
+2025-03-09 18:02:52.051 +01:00 [INF] Route matched with {action = "GetAllCompanies", controller = "Enterprise"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllCompanies() on controller Enterprise.Manager.WebApi.Controllers.EnterpriseController (Enterprise.Manager.WebApi).
+2025-03-09 18:02:52.063 +01:00 [INF] [EnterpriseController][MoveNext] Begin action.
+2025-03-09 18:02:52.105 +01:00 [ERR] [EnterpriseController][MoveNext] Ex: System.MissingMethodException: Method not found: '!!0 AutoMapper.IMapper.Map(System.Object)'.
+   at Enterprise.Manager.Contracts.ServiceLibrary.Implementations.EnterpriseApplicationService.GetAllCompanies()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Enterprise.Manager.Contracts.ServiceLibrary.Implementations.EnterpriseApplicationService.GetAllCompanies()
+   at Enterprise.Manager.WebApi.Controllers.EnterpriseController.GetAllCompanies() in C:\Users\Andrea\source\Enterprise.Manager.WebAPI\CompanyManager\Controllers\EnterpriseController.cs:line 46 
+2025-03-09 18:02:52.106 +01:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2025-03-09 18:02:52.106 +01:00 [INF] Executed action Enterprise.Manager.WebApi.Controllers.EnterpriseController.GetAllCompanies (Enterprise.Manager.WebApi) in 55.1263ms
+2025-03-09 18:02:52.106 +01:00 [INF] Executed endpoint 'Enterprise.Manager.WebApi.Controllers.EnterpriseController.GetAllCompanies (Enterprise.Manager.WebApi)'
+2025-03-09 18:02:52.106 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44388/api/enterprise - - - 500 - text/plain;+charset=utf-8 180716.7902ms
+2025-03-09 18:06:56.979 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-09 18:06:57.071 +01:00 [INF] Hosting environment: Development
+2025-03-09 18:06:57.068 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44388/swagger/index.html - -
+2025-03-09 18:06:57.073 +01:00 [INF] Content root path: C:\Users\Andrea\source\Enterprise.Manager.WebAPI\CompanyManager\
+2025-03-09 18:06:57.945 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44388/_framework/aspnetcore-browser-refresh.js - -
+2025-03-09 18:06:57.956 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44388/swagger/index.html - - - 200 - text/html;charset=utf-8 910.6471ms
+2025-03-09 18:06:57.965 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44388/_framework/aspnetcore-browser-refresh.js - - - 200 12020 application/javascript;+charset=utf-8 13.8607ms
+2025-03-09 18:06:57.977 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44388/_vs/browserLink - -
+2025-03-09 18:06:58.040 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44388/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 63.7640ms
+2025-03-09 18:06:58.126 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44388/swagger/v1/swagger.json - -
+2025-03-09 18:06:58.397 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44388/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 270.8764ms
+2025-03-09 18:07:17.433 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44388/api/enterprise - -
+2025-03-09 18:07:22.274 +01:00 [INF] Executing endpoint 'Enterprise.Manager.WebApi.Controllers.EnterpriseController.GetAllCompanies (Enterprise.Manager.WebApi)'
+2025-03-09 18:07:22.300 +01:00 [INF] Route matched with {action = "GetAllCompanies", controller = "Enterprise"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllCompanies() on controller Enterprise.Manager.WebApi.Controllers.EnterpriseController (Enterprise.Manager.WebApi).
+2025-03-09 18:11:33.937 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-09 18:11:33.975 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44388/swagger/index.html - -
+2025-03-09 18:11:33.981 +01:00 [INF] Hosting environment: Development
+2025-03-09 18:11:33.983 +01:00 [INF] Content root path: C:\Users\Andrea\source\Enterprise.Manager.WebAPI\CompanyManager\
+2025-03-09 18:11:34.513 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44388/_framework/aspnetcore-browser-refresh.js - -
+2025-03-09 18:11:34.517 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44388/swagger/index.html - - - 200 - text/html;charset=utf-8 550.4124ms
+2025-03-09 18:11:34.529 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44388/_framework/aspnetcore-browser-refresh.js - - - 200 12020 application/javascript;+charset=utf-8 14.3895ms
+2025-03-09 18:11:34.544 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44388/_vs/browserLink - -
+2025-03-09 18:11:34.597 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44388/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 53.1386ms
+2025-03-09 18:11:34.658 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44388/swagger/v1/swagger.json - -
+2025-03-09 18:11:34.806 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44388/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 147.6159ms
+2025-03-09 18:11:50.605 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44388/api/enterprise - -
+2025-03-09 18:11:52.308 +01:00 [INF] Executing endpoint 'Enterprise.Manager.WebApi.Controllers.EnterpriseController.GetAllCompanies (Enterprise.Manager.WebApi)'
+2025-03-09 18:11:52.341 +01:00 [INF] Route matched with {action = "GetAllCompanies", controller = "Enterprise"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllCompanies() on controller Enterprise.Manager.WebApi.Controllers.EnterpriseController (Enterprise.Manager.WebApi).
+2025-03-09 18:11:52.620 +01:00 [INF] [EnterpriseController][MoveNext] Begin action.
+2025-03-09 18:11:56.290 +01:00 [INF] Executing OkObjectResult, writing value of type 'Enterprise.Manager.Extensions.OperationResult`1[[System.Collections.Generic.IEnumerable`1[[Enterprise.Manager.Contracts.ServiceLibrary.DTO.CompanyResponse, Enterprise.Manager.ServiceLibrary, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-03-09 18:11:56.320 +01:00 [INF] Executed action Enterprise.Manager.WebApi.Controllers.EnterpriseController.GetAllCompanies (Enterprise.Manager.WebApi) in 3973.17ms
+2025-03-09 18:11:56.324 +01:00 [INF] Executed endpoint 'Enterprise.Manager.WebApi.Controllers.EnterpriseController.GetAllCompanies (Enterprise.Manager.WebApi)'
+2025-03-09 18:11:56.326 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44388/api/enterprise - - - 200 - application/json;+charset=utf-8 5720.6821ms
+2025-03-09 18:12:25.164 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44388/api/enterprise/1 - -
+2025-03-09 18:12:26.656 +01:00 [INF] Executing endpoint 'Enterprise.Manager.WebApi.Controllers.EnterpriseController.GetCompanyById (Enterprise.Manager.WebApi)'
+2025-03-09 18:12:26.680 +01:00 [INF] Route matched with {action = "GetCompanyById", controller = "Enterprise"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetCompanyById(Int32) on controller Enterprise.Manager.WebApi.Controllers.EnterpriseController (Enterprise.Manager.WebApi).
+2025-03-09 18:12:26.697 +01:00 [INF] [EnterpriseController][MoveNext] Begin action.
+2025-03-09 18:12:26.993 +01:00 [INF] Executing OkObjectResult, writing value of type 'Enterprise.Manager.Extensions.OperationResult`1[[Enterprise.Manager.Contracts.ServiceLibrary.DTO.CompanyResponse, Enterprise.Manager.ServiceLibrary, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-03-09 18:12:26.994 +01:00 [INF] Executed action Enterprise.Manager.WebApi.Controllers.EnterpriseController.GetCompanyById (Enterprise.Manager.WebApi) in 313.7666ms
+2025-03-09 18:12:26.994 +01:00 [INF] Executed endpoint 'Enterprise.Manager.WebApi.Controllers.EnterpriseController.GetCompanyById (Enterprise.Manager.WebApi)'
+2025-03-09 18:12:26.994 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44388/api/enterprise/1 - - - 200 - application/json;+charset=utf-8 1831.2781ms
+2025-03-09 18:12:57.868 +01:00 [INF] Request starting HTTP/2 POST https://localhost:44388/api/enterprise application/json 101
+2025-03-09 18:12:59.270 +01:00 [INF] Executing endpoint 'Enterprise.Manager.WebApi.Controllers.EnterpriseController.CreateCompany (Enterprise.Manager.WebApi)'
+2025-03-09 18:12:59.275 +01:00 [INF] Route matched with {action = "CreateCompany", controller = "Enterprise"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateCompany(Enterprise.Manager.Contracts.ServiceLibrary.DTO.CreateCompanyRequest) on controller Enterprise.Manager.WebApi.Controllers.EnterpriseController (Enterprise.Manager.WebApi).
+2025-03-09 18:12:59.320 +01:00 [INF] [EnterpriseController][MoveNext] Begin action.
+2025-03-09 18:13:00.438 +01:00 [INF] Executing OkObjectResult, writing value of type 'Enterprise.Manager.Extensions.OperationResult`1[[Enterprise.Manager.Contracts.ServiceLibrary.DTO.CompanyResponse, Enterprise.Manager.ServiceLibrary, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-03-09 18:13:00.438 +01:00 [INF] Executed action Enterprise.Manager.WebApi.Controllers.EnterpriseController.CreateCompany (Enterprise.Manager.WebApi) in 1162.6802ms
+2025-03-09 18:13:00.438 +01:00 [INF] Executed endpoint 'Enterprise.Manager.WebApi.Controllers.EnterpriseController.CreateCompany (Enterprise.Manager.WebApi)'
+2025-03-09 18:13:00.438 +01:00 [INF] Request finished HTTP/2 POST https://localhost:44388/api/enterprise application/json 101 - 200 - application/json;+charset=utf-8 2570.4083ms
+2025-03-09 18:13:21.509 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44388/api/enterprise/isin/ddddd - -
+2025-03-09 18:13:22.820 +01:00 [INF] Executing endpoint 'Enterprise.Manager.WebApi.Controllers.EnterpriseController.GetCompanyByIsin (Enterprise.Manager.WebApi)'
+2025-03-09 18:13:22.823 +01:00 [INF] Route matched with {action = "GetCompanyByIsin", controller = "Enterprise"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetCompanyByIsin(System.String) on controller Enterprise.Manager.WebApi.Controllers.EnterpriseController (Enterprise.Manager.WebApi).
+2025-03-09 18:13:23.646 +01:00 [INF] [EnterpriseController][MoveNext] Begin action.
+2025-03-09 18:13:23.669 +01:00 [INF] Executing OkObjectResult, writing value of type 'Enterprise.Manager.Extensions.OperationResult`1[[Enterprise.Manager.Contracts.ServiceLibrary.DTO.CompanyResponse, Enterprise.Manager.ServiceLibrary, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-03-09 18:13:23.673 +01:00 [INF] Executed action Enterprise.Manager.WebApi.Controllers.EnterpriseController.GetCompanyByIsin (Enterprise.Manager.WebApi) in 850.3738ms
+2025-03-09 18:13:23.674 +01:00 [INF] Executed endpoint 'Enterprise.Manager.WebApi.Controllers.EnterpriseController.GetCompanyByIsin (Enterprise.Manager.WebApi)'
+2025-03-09 18:13:23.675 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44388/api/enterprise/isin/ddddd - - - 200 - application/json;+charset=utf-8 2166.5347ms
+2025-03-09 18:14:06.440 +01:00 [INF] Request starting HTTP/2 POST https://localhost:44388/api/enterprise/update application/json 117
+2025-03-09 18:14:11.702 +01:00 [INF] Executing endpoint 'Enterprise.Manager.WebApi.Controllers.EnterpriseController.UpdateCompany (Enterprise.Manager.WebApi)'
+2025-03-09 18:14:11.705 +01:00 [INF] Route matched with {action = "UpdateCompany", controller = "Enterprise"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UpdateCompany(Enterprise.Manager.ServiceLibrary.DTO.UpdateCompanyRequest) on controller Enterprise.Manager.WebApi.Controllers.EnterpriseController (Enterprise.Manager.WebApi).
+2025-03-09 18:14:13.633 +01:00 [INF] [EnterpriseController][MoveNext] Begin action.
+2025-03-09 18:14:29.940 +01:00 [ERR] [EnterpriseController][MoveNext] Ex: Enterprise.Manager.Library.Exceptions.DuplicateIsinException: Isin ddddd already exists in database
+   at Enterprise.Manager.Library.Implementations.EnterpriseDomainService.UpdateCompanyAsync(CompanyEntity company) in C:\Users\Andrea\source\Enterprise.Manager.WebAPI\Company.Manager.Library\Implementations\EnterpriseDomainService.cs:line 75
+   at Enterprise.Manager.Contracts.ServiceLibrary.Implementations.EnterpriseApplicationService.UpdateCompany(UpdateCompanyRequest updateCompanyRequest) in C:\Users\Andrea\source\Enterprise.Manager.WebAPI\Company.Manager.Contracts.ServiceLibrary\Implementations\EnterpriseApplicationService.cs:line 66
+   at Enterprise.Manager.WebApi.Controllers.EnterpriseController.UpdateCompany(UpdateCompanyRequest company) in C:\Users\Andrea\source\Enterprise.Manager.WebAPI\CompanyManager\Controllers\EnterpriseController.cs:line 175 
+2025-03-09 18:14:29.940 +01:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2025-03-09 18:14:29.942 +01:00 [INF] Executed action Enterprise.Manager.WebApi.Controllers.EnterpriseController.UpdateCompany (Enterprise.Manager.WebApi) in 18237.0469ms
+2025-03-09 18:14:29.942 +01:00 [INF] Executed endpoint 'Enterprise.Manager.WebApi.Controllers.EnterpriseController.UpdateCompany (Enterprise.Manager.WebApi)'
+2025-03-09 18:14:29.942 +01:00 [INF] Request finished HTTP/2 POST https://localhost:44388/api/enterprise/update application/json 117 - 500 - text/plain;+charset=utf-8 23502.3932ms
+2025-03-09 18:17:32.705 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-09 18:17:32.754 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44388/swagger/index.html - -
+2025-03-09 18:17:32.761 +01:00 [INF] Hosting environment: Development
+2025-03-09 18:17:32.763 +01:00 [INF] Content root path: C:\Users\Andrea\source\Enterprise.Manager.WebAPI\CompanyManager\
+2025-03-09 18:17:34.138 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44388/_framework/aspnetcore-browser-refresh.js - -
+2025-03-09 18:17:34.141 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44388/swagger/index.html - - - 200 - text/html;charset=utf-8 1397.6505ms
+2025-03-09 18:17:34.179 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44388/_framework/aspnetcore-browser-refresh.js - - - 200 12020 application/javascript;+charset=utf-8 33.1157ms
+2025-03-09 18:17:34.193 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44388/_vs/browserLink - -
+2025-03-09 18:17:34.257 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44388/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 64.0568ms
+2025-03-09 18:17:34.339 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44388/swagger/v1/swagger.json - -
+2025-03-09 18:17:34.574 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44388/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 234.6913ms
+2025-03-09 18:18:21.283 +01:00 [INF] Request starting HTTP/2 POST https://localhost:44388/api/enterprise/update application/json 112
+2025-03-09 18:18:24.155 +01:00 [INF] Executing endpoint 'Enterprise.Manager.WebApi.Controllers.EnterpriseController.UpdateCompany (Enterprise.Manager.WebApi)'
+2025-03-09 18:18:24.200 +01:00 [INF] Route matched with {action = "UpdateCompany", controller = "Enterprise"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UpdateCompany(Enterprise.Manager.ServiceLibrary.DTO.UpdateCompanyRequest) on controller Enterprise.Manager.WebApi.Controllers.EnterpriseController (Enterprise.Manager.WebApi).
+2025-03-09 18:18:27.808 +01:00 [INF] [EnterpriseController][MoveNext] Begin action.
+2025-03-09 18:19:46.081 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-09 18:19:46.146 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44388/swagger/index.html - -
+2025-03-09 18:19:46.150 +01:00 [INF] Hosting environment: Development
+2025-03-09 18:19:46.151 +01:00 [INF] Content root path: C:\Users\Andrea\source\Enterprise.Manager.WebAPI\CompanyManager\
+2025-03-09 18:19:46.830 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44388/_framework/aspnetcore-browser-refresh.js - -
+2025-03-09 18:19:46.846 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44388/swagger/index.html - - - 200 - text/html;charset=utf-8 709.4345ms
+2025-03-09 18:19:46.848 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44388/_framework/aspnetcore-browser-refresh.js - - - 200 12020 application/javascript;+charset=utf-8 16.0721ms
+2025-03-09 18:19:46.868 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44388/_vs/browserLink - -
+2025-03-09 18:19:46.927 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44388/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 59.1839ms
+2025-03-09 18:19:46.995 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44388/swagger/v1/swagger.json - -
+2025-03-09 18:19:47.187 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44388/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 191.2026ms
+2025-03-09 18:20:16.202 +01:00 [INF] Request starting HTTP/2 POST https://localhost:44388/api/enterprise/update application/json 112
+2025-03-09 18:20:17.506 +01:00 [INF] Executing endpoint 'Enterprise.Manager.WebApi.Controllers.EnterpriseController.UpdateCompany (Enterprise.Manager.WebApi)'
+2025-03-09 18:20:17.585 +01:00 [INF] Route matched with {action = "UpdateCompany", controller = "Enterprise"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UpdateCompany(Enterprise.Manager.ServiceLibrary.DTO.UpdateCompanyRequest) on controller Enterprise.Manager.WebApi.Controllers.EnterpriseController (Enterprise.Manager.WebApi).
+2025-03-09 18:20:19.517 +01:00 [INF] [EnterpriseController][MoveNext] Begin action.
+2025-03-09 18:20:22.498 +01:00 [INF] Executing OkObjectResult, writing value of type 'Enterprise.Manager.Extensions.OperationResult`1[[Enterprise.Manager.Contracts.ServiceLibrary.DTO.CompanyResponse, Enterprise.Manager.ServiceLibrary, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-03-09 18:20:22.536 +01:00 [INF] Executed action Enterprise.Manager.WebApi.Controllers.EnterpriseController.UpdateCompany (Enterprise.Manager.WebApi) in 4944.2035ms
+2025-03-09 18:20:22.541 +01:00 [INF] Executed endpoint 'Enterprise.Manager.WebApi.Controllers.EnterpriseController.UpdateCompany (Enterprise.Manager.WebApi)'
+2025-03-09 18:20:22.543 +01:00 [INF] Request finished HTTP/2 POST https://localhost:44388/api/enterprise/update application/json 112 - 200 - application/json;+charset=utf-8 6341.9442ms
+2025-03-09 18:20:36.700 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44388/api/enterprise - -
+2025-03-09 18:20:38.035 +01:00 [INF] Executing endpoint 'Enterprise.Manager.WebApi.Controllers.EnterpriseController.GetAllCompanies (Enterprise.Manager.WebApi)'
+2025-03-09 18:20:38.039 +01:00 [INF] Route matched with {action = "GetAllCompanies", controller = "Enterprise"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllCompanies() on controller Enterprise.Manager.WebApi.Controllers.EnterpriseController (Enterprise.Manager.WebApi).
+2025-03-09 18:20:38.044 +01:00 [INF] [EnterpriseController][MoveNext] Begin action.
+2025-03-09 18:20:41.100 +01:00 [INF] Executing OkObjectResult, writing value of type 'Enterprise.Manager.Extensions.OperationResult`1[[System.Collections.Generic.IEnumerable`1[[Enterprise.Manager.Contracts.ServiceLibrary.DTO.CompanyResponse, Enterprise.Manager.ServiceLibrary, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-03-09 18:20:41.101 +01:00 [INF] Executed action Enterprise.Manager.WebApi.Controllers.EnterpriseController.GetAllCompanies (Enterprise.Manager.WebApi) in 3062.3543ms
+2025-03-09 18:20:41.102 +01:00 [INF] Executed endpoint 'Enterprise.Manager.WebApi.Controllers.EnterpriseController.GetAllCompanies (Enterprise.Manager.WebApi)'
+2025-03-09 18:20:41.102 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44388/api/enterprise - - - 200 - application/json;+charset=utf-8 4401.3793ms
+2025-03-09 20:34:38.971 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-09 20:34:39.013 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44388/swagger/index.html - -
+2025-03-09 20:34:39.019 +01:00 [INF] Hosting environment: Development
+2025-03-09 20:34:39.020 +01:00 [INF] Content root path: C:\Users\Andrea\source\Enterprise.Manager.WebAPI\CompanyManager\
+2025-03-09 20:34:39.572 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44388/_framework/aspnetcore-browser-refresh.js - -
+2025-03-09 20:34:39.577 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44388/swagger/index.html - - - 200 - text/html;charset=utf-8 571.3263ms
+2025-03-09 20:34:39.599 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44388/_vs/browserLink - -
+2025-03-09 20:34:39.600 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44388/_framework/aspnetcore-browser-refresh.js - - - 200 12020 application/javascript;+charset=utf-8 14.6610ms
+2025-03-09 20:34:39.653 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44388/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 53.9275ms
+2025-03-09 20:34:39.706 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44388/swagger/v1/swagger.json - -
+2025-03-09 20:34:39.828 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44388/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 122.3591ms
+2025-03-09 20:37:02.715 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-09 20:37:02.779 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44388/swagger/index.html - -
+2025-03-09 20:37:02.784 +01:00 [INF] Hosting environment: Development
+2025-03-09 20:37:02.785 +01:00 [INF] Content root path: C:\Users\Andrea\source\Enterprise.Manager.WebAPI\CompanyManager\
+2025-03-09 20:37:03.345 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44388/_framework/aspnetcore-browser-refresh.js - -
+2025-03-09 20:37:03.352 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44388/swagger/index.html - - - 200 - text/html;charset=utf-8 585.3201ms
+2025-03-09 20:37:03.373 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44388/_vs/browserLink - -
+2025-03-09 20:37:03.374 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44388/_framework/aspnetcore-browser-refresh.js - - - 200 12020 application/javascript;+charset=utf-8 18.0414ms
+2025-03-09 20:37:03.426 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44388/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 52.5485ms
+2025-03-09 20:37:03.488 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44388/swagger/v1/swagger.json - -
+2025-03-09 20:37:03.713 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44388/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 224.3784ms
+2025-03-09 20:37:20.511 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44388/api/enterprise - -
+2025-03-09 20:37:22.883 +01:00 [INF] Executing endpoint 'Enterprise.Manager.WebApi.Controllers.EnterpriseController.GetAllCompanies (Enterprise.Manager.WebApi)'
+2025-03-09 20:37:22.926 +01:00 [INF] Route matched with {action = "GetAllCompanies", controller = "Enterprise"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllCompanies() on controller Enterprise.Manager.WebApi.Controllers.EnterpriseController (Enterprise.Manager.WebApi).
+2025-03-09 20:37:23.161 +01:00 [INF] [EnterpriseController][MoveNext] Begin action.
+2025-03-09 20:37:24.853 +01:00 [INF] Executing OkObjectResult, writing value of type 'Enterprise.Manager.Extensions.OperationResult`1[[System.Collections.Generic.IEnumerable`1[[Enterprise.Manager.Contracts.ServiceLibrary.DTO.CompanyResponse, Enterprise.Manager.ServiceLibrary, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-03-09 20:37:24.877 +01:00 [INF] Executed action Enterprise.Manager.WebApi.Controllers.EnterpriseController.GetAllCompanies (Enterprise.Manager.WebApi) in 1947.599ms
+2025-03-09 20:37:24.880 +01:00 [INF] Executed endpoint 'Enterprise.Manager.WebApi.Controllers.EnterpriseController.GetAllCompanies (Enterprise.Manager.WebApi)'
+2025-03-09 20:37:24.881 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44388/api/enterprise - - - 200 - application/json;+charset=utf-8 4370.4632ms
+2025-03-09 20:37:41.948 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44388/api/enterprise/1 - -
+2025-03-09 20:37:43.679 +01:00 [INF] Executing endpoint 'Enterprise.Manager.WebApi.Controllers.EnterpriseController.GetCompanyById (Enterprise.Manager.WebApi)'
+2025-03-09 20:37:43.696 +01:00 [INF] Route matched with {action = "GetCompanyById", controller = "Enterprise"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetCompanyById(Int32) on controller Enterprise.Manager.WebApi.Controllers.EnterpriseController (Enterprise.Manager.WebApi).
+2025-03-09 20:37:43.709 +01:00 [INF] [EnterpriseController][MoveNext] Begin action.
+2025-03-09 20:37:44.004 +01:00 [INF] Executing OkObjectResult, writing value of type 'Enterprise.Manager.Extensions.OperationResult`1[[Enterprise.Manager.Contracts.ServiceLibrary.DTO.CompanyResponse, Enterprise.Manager.ServiceLibrary, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-03-09 20:37:44.005 +01:00 [INF] Executed action Enterprise.Manager.WebApi.Controllers.EnterpriseController.GetCompanyById (Enterprise.Manager.WebApi) in 308.4766ms
+2025-03-09 20:37:44.005 +01:00 [INF] Executed endpoint 'Enterprise.Manager.WebApi.Controllers.EnterpriseController.GetCompanyById (Enterprise.Manager.WebApi)'
+2025-03-09 20:37:44.005 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44388/api/enterprise/1 - - - 200 - application/json;+charset=utf-8 2057.2863ms

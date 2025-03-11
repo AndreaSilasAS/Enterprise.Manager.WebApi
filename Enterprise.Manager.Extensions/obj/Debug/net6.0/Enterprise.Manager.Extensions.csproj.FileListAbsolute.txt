@@ -1,0 +1,12 @@
+C:\Users\Andrea\source\Enterprise.Manager.WebAPI\Enterprise.Manager.Extensions\bin\Debug\net6.0\Enterprise.Manager.Extensions.deps.json
+C:\Users\Andrea\source\Enterprise.Manager.WebAPI\Enterprise.Manager.Extensions\bin\Debug\net6.0\Enterprise.Manager.Extensions.dll
+C:\Users\Andrea\source\Enterprise.Manager.WebAPI\Enterprise.Manager.Extensions\bin\Debug\net6.0\Enterprise.Manager.Extensions.pdb
+C:\Users\Andrea\source\Enterprise.Manager.WebAPI\Enterprise.Manager.Extensions\obj\Debug\net6.0\Enterprise.Manager.Extensions.csproj.AssemblyReference.cache
+C:\Users\Andrea\source\Enterprise.Manager.WebAPI\Enterprise.Manager.Extensions\obj\Debug\net6.0\Enterprise.Manager.Extensions.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Andrea\source\Enterprise.Manager.WebAPI\Enterprise.Manager.Extensions\obj\Debug\net6.0\Enterprise.Manager.Extensions.AssemblyInfoInputs.cache
+C:\Users\Andrea\source\Enterprise.Manager.WebAPI\Enterprise.Manager.Extensions\obj\Debug\net6.0\Enterprise.Manager.Extensions.AssemblyInfo.cs
+C:\Users\Andrea\source\Enterprise.Manager.WebAPI\Enterprise.Manager.Extensions\obj\Debug\net6.0\Enterprise.Manager.Extensions.csproj.CoreCompileInputs.cache
+C:\Users\Andrea\source\Enterprise.Manager.WebAPI\Enterprise.Manager.Extensions\obj\Debug\net6.0\Enterprise.Manager.Extensions.dll
+C:\Users\Andrea\source\Enterprise.Manager.WebAPI\Enterprise.Manager.Extensions\obj\Debug\net6.0\refint\Enterprise.Manager.Extensions.dll
+C:\Users\Andrea\source\Enterprise.Manager.WebAPI\Enterprise.Manager.Extensions\obj\Debug\net6.0\Enterprise.Manager.Extensions.pdb
+C:\Users\Andrea\source\Enterprise.Manager.WebAPI\Enterprise.Manager.Extensions\obj\Debug\net6.0\ref\Enterprise.Manager.Extensions.dll

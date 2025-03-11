@@ -1,0 +1,12 @@
+C:\Users\Andrea\source\repos\Enterprise.Manager.WebAPI\Company.Manager.DB.Infraestructure\bin\Debug\net6.0\Enterprise.Manager.DB.Infraestructure.deps.json
+C:\Users\Andrea\source\repos\Enterprise.Manager.WebAPI\Company.Manager.DB.Infraestructure\bin\Debug\net6.0\Enterprise.Manager.DB.Infraestructure.dll
+C:\Users\Andrea\source\repos\Enterprise.Manager.WebAPI\Company.Manager.DB.Infraestructure\bin\Debug\net6.0\Enterprise.Manager.DB.Infraestructure.pdb
+C:\Users\Andrea\source\repos\Enterprise.Manager.WebAPI\Company.Manager.DB.Infraestructure\obj\Debug\net6.0\Enterprise.Manager.DB.Infraestructure.csproj.AssemblyReference.cache
+C:\Users\Andrea\source\repos\Enterprise.Manager.WebAPI\Company.Manager.DB.Infraestructure\obj\Debug\net6.0\Enterprise.Manager.DB.Infraestructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Andrea\source\repos\Enterprise.Manager.WebAPI\Company.Manager.DB.Infraestructure\obj\Debug\net6.0\Enterprise.Manager.DB.Infraestructure.AssemblyInfoInputs.cache
+C:\Users\Andrea\source\repos\Enterprise.Manager.WebAPI\Company.Manager.DB.Infraestructure\obj\Debug\net6.0\Enterprise.Manager.DB.Infraestructure.AssemblyInfo.cs
+C:\Users\Andrea\source\repos\Enterprise.Manager.WebAPI\Company.Manager.DB.Infraestructure\obj\Debug\net6.0\Enterprise.Manager.DB.Infraestructure.csproj.CoreCompileInputs.cache
+C:\Users\Andrea\source\repos\Enterprise.Manager.WebAPI\Company.Manager.DB.Infraestructure\obj\Debug\net6.0\Enterprise.Manager.DB.Infraestructure.dll
+C:\Users\Andrea\source\repos\Enterprise.Manager.WebAPI\Company.Manager.DB.Infraestructure\obj\Debug\net6.0\refint\Enterprise.Manager.DB.Infraestructure.dll
+C:\Users\Andrea\source\repos\Enterprise.Manager.WebAPI\Company.Manager.DB.Infraestructure\obj\Debug\net6.0\Enterprise.Manager.DB.Infraestructure.pdb
+C:\Users\Andrea\source\repos\Enterprise.Manager.WebAPI\Company.Manager.DB.Infraestructure\obj\Debug\net6.0\ref\Enterprise.Manager.DB.Infraestructure.dll

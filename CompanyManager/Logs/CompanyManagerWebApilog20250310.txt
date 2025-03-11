@@ -1,0 +1,203 @@
+2025-03-10 17:14:58.316 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-10 17:14:58.368 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44388/swagger/index.html - -
+2025-03-10 17:14:58.378 +01:00 [INF] Hosting environment: Development
+2025-03-10 17:14:58.378 +01:00 [INF] Content root path: C:\Users\Andrea\source\Enterprise.Manager.WebAPI\CompanyManager\
+2025-03-10 17:14:59.121 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44388/_framework/aspnetcore-browser-refresh.js - -
+2025-03-10 17:14:59.127 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44388/swagger/index.html - - - 200 - text/html;charset=utf-8 771.4203ms
+2025-03-10 17:14:59.153 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44388/_framework/aspnetcore-browser-refresh.js - - - 200 12020 application/javascript;+charset=utf-8 19.2191ms
+2025-03-10 17:14:59.156 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44388/_vs/browserLink - -
+2025-03-10 17:14:59.209 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44388/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 53.6356ms
+2025-03-10 17:14:59.302 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44388/swagger/v1/swagger.json - -
+2025-03-10 17:14:59.481 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44388/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 178.7841ms
+2025-03-10 18:08:02.541 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44388/enterprise - -
+2025-03-10 19:01:35.879 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44388/enterprise - -
+2025-03-10 19:01:35.879 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44388/enterprise - -
+2025-03-10 19:01:35.882 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44388/enterprise - -
+2025-03-10 19:01:35.882 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44388/enterprise - -
+2025-03-10 19:01:35.882 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44388/enterprise - -
+2025-03-10 19:01:35.882 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44388/enterprise - -
+2025-03-10 19:01:35.882 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44388/enterprise - -
+2025-03-10 19:01:35.882 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44388/enterprise - -
+2025-03-10 19:01:35.882 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44388/enterprise - -
+2025-03-10 19:01:42.380 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44388/enterprise - - - 401 - - 6568.5781ms
+2025-03-10 19:01:42.381 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44388/enterprise - -
+2025-03-10 19:01:42.382 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44388/enterprise - - - 401 - - 0.7328ms
+2025-03-10 19:01:42.394 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44388/enterprise - - - 401 - - 6584.0196ms
+2025-03-10 19:01:42.394 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44388/enterprise - - - 401 - - 6584.0166ms
+2025-03-10 19:01:42.394 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44388/enterprise - - - 401 - - 6584.0174ms
+2025-03-10 19:01:42.394 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44388/enterprise - - - 401 - - 6584.0169ms
+2025-03-10 19:01:42.394 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44388/enterprise - - - 401 - - 6584.0195ms
+2025-03-10 19:01:42.394 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44388/enterprise - - - 401 - - 6584.0186ms
+2025-03-10 19:01:42.394 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44388/enterprise - - - 401 - - 3219857.4826ms
+2025-03-10 19:01:42.394 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44388/enterprise - - - 401 - - 6584.0196ms
+2025-03-10 19:01:42.394 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44388/enterprise - - - 401 - - 6584.0221ms
+2025-03-10 19:01:52.905 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44388/enterprise - -
+2025-03-10 19:01:52.906 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44388/enterprise - - - 401 - - 1.2158ms
+2025-03-10 19:02:24.682 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44388/enterprise - -
+2025-03-10 19:02:24.688 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44388/enterprise - - - 401 - - 7.0098ms
+2025-03-10 19:02:29.707 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44388/enterprise - -
+2025-03-10 19:02:29.708 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44388/enterprise - - - 401 - - 0.5632ms
+2025-03-10 19:02:49.350 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44388/enterprise - -
+2025-03-10 19:02:49.352 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44388/enterprise - - - 401 - - 1.2367ms
+2025-03-10 19:57:59.573 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44388/enterprise - -
+2025-03-10 19:57:59.582 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44388/enterprise - - - 401 - - 12.1657ms
+2025-03-10 19:59:00.210 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44388/enterprise - -
+2025-03-10 19:59:00.249 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44388/enterprise - - - 401 - - 39.3838ms
+2025-03-10 19:59:10.765 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44388/enterprise - -
+2025-03-10 19:59:10.766 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44388/enterprise - - - 401 - - 0.7025ms
+2025-03-10 20:04:51.763 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44388/enterprise - -
+2025-03-10 20:04:51.820 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44388/enterprise - - - 401 - - 65.4299ms
+2025-03-10 20:05:15.894 +01:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:44388/enterprise/create - -
+2025-03-10 20:05:15.912 +01:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:44388/enterprise/create - - - 401 - - 23.0532ms
+2025-03-10 20:05:19.692 +01:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:44388/enterprise/create - -
+2025-03-10 20:05:19.694 +01:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:44388/enterprise/create - - - 401 - - 1.7665ms
+2025-03-10 20:05:24.872 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44388/enterprise - -
+2025-03-10 20:05:24.873 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44388/enterprise - - - 401 - - 0.9575ms
+2025-03-10 20:05:30.966 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44388/enterprise - -
+2025-03-10 20:05:30.967 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44388/enterprise - - - 401 - - 0.9642ms
+2025-03-10 20:08:27.687 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44388/enterprise - -
+2025-03-10 20:08:27.693 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44388/enterprise - - - 401 - - 5.3978ms
+2025-03-10 20:13:29.422 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44388/enterprise - -
+2025-03-10 20:13:29.448 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44388/enterprise - - - 401 - - 27.2139ms
+2025-03-10 20:14:51.703 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44388/enterprise - -
+2025-03-10 20:14:51.707 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44388/enterprise - - - 401 - - 4.9146ms
+2025-03-10 20:17:21.398 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-10 20:17:21.479 +01:00 [INF] Hosting environment: Development
+2025-03-10 20:17:21.477 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44388/swagger/index.html - -
+2025-03-10 20:17:21.480 +01:00 [INF] Content root path: C:\Users\Andrea\source\Enterprise.Manager.WebAPI\CompanyManager\
+2025-03-10 20:17:22.478 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44388/_framework/aspnetcore-browser-refresh.js - -
+2025-03-10 20:17:22.491 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44388/swagger/index.html - - - 200 - text/html;charset=utf-8 1028.9865ms
+2025-03-10 20:17:22.501 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44388/_framework/aspnetcore-browser-refresh.js - - - 200 12020 application/javascript;+charset=utf-8 17.3841ms
+2025-03-10 20:17:22.517 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44388/_vs/browserLink - -
+2025-03-10 20:17:22.582 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44388/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 64.6136ms
+2025-03-10 20:17:22.705 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44388/swagger/v1/swagger.json - -
+2025-03-10 20:17:23.029 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44388/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 324.5237ms
+2025-03-10 20:17:30.873 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44388/enterprise - -
+2025-03-10 20:17:30.878 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44388/enterprise - - - 401 - - 4.0942ms
+2025-03-10 20:17:36.584 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44388/enterprise - -
+2025-03-10 20:17:36.585 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44388/enterprise - - - 401 - - 1.1225ms
+2025-03-10 20:20:45.855 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-10 20:20:45.927 +01:00 [INF] Hosting environment: Development
+2025-03-10 20:20:45.925 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44388/swagger/index.html - -
+2025-03-10 20:20:45.928 +01:00 [INF] Content root path: C:\Users\Andrea\source\Enterprise.Manager.WebAPI\CompanyManager\
+2025-03-10 20:20:46.946 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44388/_framework/aspnetcore-browser-refresh.js - -
+2025-03-10 20:20:46.950 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44388/swagger/index.html - - - 200 - text/html;charset=utf-8 1039.4521ms
+2025-03-10 20:20:46.966 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44388/_vs/browserLink - -
+2025-03-10 20:20:46.968 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44388/_framework/aspnetcore-browser-refresh.js - - - 200 12020 application/javascript;+charset=utf-8 11.1601ms
+2025-03-10 20:20:47.022 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44388/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 55.7555ms
+2025-03-10 20:20:47.103 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44388/swagger/v1/swagger.json - -
+2025-03-10 20:20:47.250 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44388/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 146.6001ms
+2025-03-10 20:21:01.017 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44388/enterprise - -
+2025-03-10 20:21:01.022 +01:00 [INF] CORS policy execution successful.
+2025-03-10 20:21:01.029 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44388/enterprise - - - 401 - - 11.0858ms
+2025-03-10 20:21:24.007 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44388/enterprise - -
+2025-03-10 20:21:24.035 +01:00 [INF] CORS policy execution successful.
+2025-03-10 20:21:24.037 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44388/enterprise - - - 401 - - 30.2624ms
+2025-03-10 20:27:22.542 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44388/enterprise - -
+2025-03-10 20:27:22.542 +01:00 [INF] CORS policy execution successful.
+2025-03-10 20:27:22.547 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44388/enterprise - - - 401 - - 5.8952ms
+2025-03-10 20:27:26.541 +01:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:44388/enterprise - -
+2025-03-10 20:27:26.541 +01:00 [INF] CORS policy execution successful.
+2025-03-10 20:27:26.546 +01:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:44388/enterprise - - - 204 - - 5.1285ms
+2025-03-10 20:27:26.548 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44388/enterprise appliction/json -
+2025-03-10 20:27:26.549 +01:00 [INF] CORS policy execution successful.
+2025-03-10 20:27:26.550 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44388/enterprise appliction/json - - 401 - - 1.0738ms
+2025-03-10 20:27:40.139 +01:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:44388/enterprise - -
+2025-03-10 20:27:40.139 +01:00 [INF] CORS policy execution successful.
+2025-03-10 20:27:40.139 +01:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:44388/enterprise - - - 204 - - 0.4726ms
+2025-03-10 20:27:40.142 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44388/enterprise appliction/json -
+2025-03-10 20:27:40.142 +01:00 [INF] CORS policy execution successful.
+2025-03-10 20:27:40.143 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44388/enterprise appliction/json - - 401 - - 0.6377ms
+2025-03-10 20:29:56.714 +01:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:44388/enterprise - -
+2025-03-10 20:29:56.752 +01:00 [INF] CORS policy execution successful.
+2025-03-10 20:29:56.754 +01:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:44388/enterprise - - - 204 - - 40.6772ms
+2025-03-10 20:29:56.759 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44388/enterprise appliction/json -
+2025-03-10 20:29:56.760 +01:00 [INF] CORS policy execution successful.
+2025-03-10 20:29:56.760 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44388/enterprise appliction/json - - 401 - - 0.7543ms
+2025-03-10 20:30:03.621 +01:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:44388/enterprise - -
+2025-03-10 20:30:03.621 +01:00 [INF] CORS policy execution successful.
+2025-03-10 20:30:03.622 +01:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:44388/enterprise - - - 204 - - 0.4016ms
+2025-03-10 20:30:03.624 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44388/enterprise appliction/json -
+2025-03-10 20:30:03.625 +01:00 [INF] CORS policy execution successful.
+2025-03-10 20:30:03.626 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44388/enterprise appliction/json - - 401 - - 1.3547ms
+2025-03-10 20:30:41.472 +01:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:44388/enterprise - -
+2025-03-10 20:30:41.472 +01:00 [INF] CORS policy execution successful.
+2025-03-10 20:30:41.474 +01:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:44388/enterprise - - - 204 - - 3.3290ms
+2025-03-10 20:30:41.477 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44388/enterprise appliction/json -
+2025-03-10 20:30:41.477 +01:00 [INF] CORS policy execution successful.
+2025-03-10 20:30:41.478 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44388/enterprise appliction/json - - 401 - - 0.6212ms
+2025-03-10 20:32:10.616 +01:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:44388/enterprise - -
+2025-03-10 20:32:10.617 +01:00 [INF] CORS policy execution successful.
+2025-03-10 20:32:10.627 +01:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:44388/enterprise - - - 204 - - 10.4592ms
+2025-03-10 20:32:10.633 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44388/enterprise application/json -
+2025-03-10 20:32:10.633 +01:00 [INF] CORS policy execution successful.
+2025-03-10 20:32:10.640 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44388/enterprise application/json - - 401 - - 6.8002ms
+2025-03-10 20:33:46.417 +01:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:44388/enterprise - -
+2025-03-10 20:33:46.418 +01:00 [INF] CORS policy execution successful.
+2025-03-10 20:33:46.423 +01:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:44388/enterprise - - - 204 - - 5.9865ms
+2025-03-10 20:33:46.428 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44388/enterprise application/json -
+2025-03-10 20:33:46.432 +01:00 [INF] CORS policy execution successful.
+2025-03-10 20:33:46.444 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44388/enterprise application/json - - 401 - - 17.9031ms
+2025-03-10 20:34:49.513 +01:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:44388/enterprise - -
+2025-03-10 20:34:49.513 +01:00 [INF] CORS policy execution successful.
+2025-03-10 20:34:49.516 +01:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:44388/enterprise - - - 204 - - 3.1787ms
+2025-03-10 20:34:49.518 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44388/enterprise application/json -
+2025-03-10 20:34:49.519 +01:00 [INF] CORS policy execution successful.
+2025-03-10 20:34:49.519 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44388/enterprise application/json - - 401 - - 0.6368ms
+2025-03-10 20:35:03.945 +01:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:44388/enterprise - -
+2025-03-10 20:35:03.945 +01:00 [INF] CORS policy execution successful.
+2025-03-10 20:35:03.945 +01:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:44388/enterprise - - - 204 - - 0.2839ms
+2025-03-10 20:35:03.947 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44388/enterprise application/json -
+2025-03-10 20:35:03.947 +01:00 [INF] CORS policy execution successful.
+2025-03-10 20:35:03.948 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44388/enterprise application/json - - 401 - - 0.4953ms
+2025-03-10 20:35:06.961 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44388/enterprise application/json -
+2025-03-10 20:35:06.961 +01:00 [INF] CORS policy execution successful.
+2025-03-10 20:35:06.961 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44388/enterprise application/json - - 401 - - 0.6101ms
+2025-03-10 20:35:09.442 +01:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:44388/enterprise - -
+2025-03-10 20:35:09.442 +01:00 [INF] CORS policy execution successful.
+2025-03-10 20:35:09.442 +01:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:44388/enterprise - - - 204 - - 0.3404ms
+2025-03-10 20:35:09.447 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44388/enterprise application/json -
+2025-03-10 20:35:09.447 +01:00 [INF] CORS policy execution successful.
+2025-03-10 20:35:09.447 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44388/enterprise application/json - - 401 - - 0.5410ms
+2025-03-10 20:35:24.354 +01:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:44388/enterprise - -
+2025-03-10 20:35:24.354 +01:00 [INF] CORS policy execution successful.
+2025-03-10 20:35:24.354 +01:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:44388/enterprise - - - 204 - - 0.2942ms
+2025-03-10 20:35:24.356 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44388/enterprise application/json -
+2025-03-10 20:35:24.356 +01:00 [INF] CORS policy execution successful.
+2025-03-10 20:35:24.356 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44388/enterprise application/json - - 401 - - 0.5001ms
+2025-03-10 20:37:20.061 +01:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:44388/enterprise - -
+2025-03-10 20:37:20.096 +01:00 [INF] CORS policy execution successful.
+2025-03-10 20:37:20.098 +01:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:44388/enterprise - - - 204 - - 38.5366ms
+2025-03-10 20:37:20.099 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44388/enterprise application/json -
+2025-03-10 20:37:20.099 +01:00 [INF] CORS policy execution successful.
+2025-03-10 20:37:20.100 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44388/enterprise application/json - - 401 - - 0.6035ms
+2025-03-10 20:39:00.078 +01:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:44388/enterprise - -
+2025-03-10 20:39:00.105 +01:00 [INF] CORS policy execution successful.
+2025-03-10 20:39:00.106 +01:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:44388/enterprise - - - 204 - - 28.2874ms
+2025-03-10 20:39:00.108 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44388/enterprise application/json -
+2025-03-10 20:39:00.108 +01:00 [INF] CORS policy execution successful.
+2025-03-10 20:39:00.109 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44388/enterprise application/json - - 401 - - 1.3796ms
+2025-03-10 20:40:00.065 +01:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:44388/enterprise - -
+2025-03-10 20:40:00.069 +01:00 [INF] CORS policy execution successful.
+2025-03-10 20:40:00.073 +01:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:44388/enterprise - - - 204 - - 7.3312ms
+2025-03-10 20:40:00.076 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44388/enterprise application/json -
+2025-03-10 20:40:00.076 +01:00 [INF] CORS policy execution successful.
+2025-03-10 20:40:00.084 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44388/enterprise application/json - - 404 - - 8.0126ms
+2025-03-10 20:40:51.274 +01:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:44388/enterprise - -
+2025-03-10 20:40:51.276 +01:00 [INF] CORS policy execution successful.
+2025-03-10 20:40:51.279 +01:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:44388/enterprise - - - 204 - - 5.2258ms
+2025-03-10 20:40:51.308 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44388/enterprise application/json -
+2025-03-10 20:40:51.312 +01:00 [INF] CORS policy execution successful.
+2025-03-10 20:40:51.314 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44388/enterprise application/json - - 404 - - 7.4688ms
+2025-03-10 20:42:40.769 +01:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:44388/enterprise - -
+2025-03-10 20:42:40.772 +01:00 [INF] CORS policy execution successful.
+2025-03-10 20:42:40.774 +01:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:44388/enterprise - - - 204 - - 6.2275ms
+2025-03-10 20:42:40.775 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44388/enterprise application/json -
+2025-03-10 20:42:40.775 +01:00 [INF] CORS policy execution successful.
+2025-03-10 20:42:40.775 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44388/enterprise application/json - - 404 - - 0.5773ms
+2025-03-10 20:43:27.858 +01:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:44388/enterprise - -
+2025-03-10 20:43:27.859 +01:00 [INF] CORS policy execution successful.
+2025-03-10 20:43:27.891 +01:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:44388/enterprise - - - 204 - - 33.2024ms
+2025-03-10 20:43:27.893 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44388/enterprise application/json -
+2025-03-10 20:43:27.893 +01:00 [INF] CORS policy execution successful.
+2025-03-10 20:43:27.894 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44388/enterprise application/json - - 404 - - 0.5287ms

@@ -1,0 +1,157 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enterprise API Client</title>
+</head>
+<body>
+    <h1>Consumo API de Empresas</h1>
+
+    <!-- Botones para las diferentes acciones -->
+    <button id="fetchAllCompaniesBtn">Obtener todas las empresas</button>
+    <button id="fetchCompanyByIdBtn">Obtener empresa por ID</button>
+    <button id="fetchCompanyByIsinBtn">Obtener empresa por ISIN</button>
+
+    <!-- Campos de entrada para los parámetros -->
+    <div>
+        <label for="companyId">ID de la empresa: </label>
+        <input type="number" id="companyId" />
+    </div>
+    <div>
+        <label for="isin">ISIN de la empresa: </label>
+        <input type="text" id="isin" />
+    </div>
+
+    <!-- Campos de formulario para crear o actualizar empresa -->
+    <h2>Crear o Actualizar Empresa</h2>
+    <div>
+        <label for="companyName">Nombre de la empresa: </label>
+        <input type="text" id="companyName" />
+    </div>
+    <div>
+        <label for="companyCountry">País de la empresa: </label>
+        <input type="text" id="companyCountry" />
+    </div>
+    <button id="createCompanyBtn">Crear Empresa</button>
+    <button id="updateCompanyBtn">Actualizar Empresa</button>
+
+    <!-- Zona para mostrar los resultados -->
+    <div id="result"></div>
+
+    <script>
+        const apiUrl = "https://localhost:5001/api/enterprise"; // Asegúrate de que el puerto sea correcto
+
+        // Mostrar el resultado
+        function displayResult(data) {
+            const resultDiv = document.getElementById("result");
+            resultDiv.innerHTML = "";
+            if (data.length === 0) {
+                resultDiv.innerHTML = "<p>No se encontraron datos.</p>";
+            } else {
+                data.forEach(item => {
+                    const element = document.createElement("div");
+                    element.innerHTML = `<strong>${item.name}</strong> (${item.country})<br>`;
+                    resultDiv.appendChild(element);
+                });
+            }
+        }
+
+        // Obtener todas las empresas
+        document.getElementById("fetchAllCompaniesBtn").addEventListener("click", () => {
+            fetch(apiUrl)
+                .then(response => response.json())
+                .then(data => displayResult(data))
+                .catch(error => {
+                    document.getElementById("result").innerHTML = `Error: ${error}`;
+                });
+        });
+
+        // Obtener empresa por ID
+        document.getElementById("fetchCompanyByIdBtn").addEventListener("click", () => {
+            const companyId = document.getElementById("companyId").value;
+            if (!companyId) {
+                alert("Por favor, ingrese un ID de empresa.");
+                return;
+            }
+            fetch(`${apiUrl}/${companyId}`)
+                .then(response => response.json())
+                .then(data => displayResult([data])) // Mostrar solo un elemento
+                .catch(error => {
+                    document.getElementById("result").innerHTML = `Error: ${error}`;
+                });
+        });
+
+        // Obtener empresa por ISIN
+        document.getElementById("fetchCompanyByIsinBtn").addEventListener("click", () => {
+            const isin = document.getElementById("isin").value;
+            if (!isin) {
+                alert("Por favor, ingrese un ISIN.");
+                return;
+            }
+            fetch(`${apiUrl}/isin/${isin}`)
+                .then(response => response.json())
+                .then(data => displayResult([data])) // Mostrar solo un elemento
+                .catch(error => {
+                    document.getElementById("result").innerHTML = `Error: ${error}`;
+                });
+        });
+
+        // Crear empresa
+        document.getElementById("createCompanyBtn").addEventListener("click", () => {
+            const companyName = document.getElementById("companyName").value;
+            const companyCountry = document.getElementById("companyCountry").value;
+            if (!companyName || !companyCountry) {
+                alert("Por favor, complete los campos.");
+                return;
+            }
+            const newCompany = {
+                name: companyName,
+                country: companyCountry
+            };
+            fetch(apiUrl, {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify(newCompany)
+            })
+                .then(response => response.json())
+                .then(data => {
+                    document.getElementById("result").innerHTML = `Empresa creada: ${JSON.stringify(data)}`;
+                })
+                .catch(error => {
+                    document.getElementById("result").innerHTML = `Error: ${error}`;
+                });
+        });
+
+        // Actualizar empresa
+        document.getElementById("updateCompanyBtn").addEventListener("click", () => {
+            const companyName = document.getElementById("companyName").value;
+            const companyCountry = document.getElementById("companyCountry").value;
+            if (!companyName || !companyCountry) {
+                alert("Por favor, complete los campos.");
+                return;
+            }
+            const updatedCompany = {
+                name: companyName,
+                country: companyCountry
+            };
+            fetch(`${apiUrl}/update`, {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify(updatedCompany)
+            })
+                .then(response => response.json())
+                .then(data => {
+                    document.getElementById("result").innerHTML = `Empresa actualizada: ${JSON.stringify(data)}`;
+                })
+                .catch(error => {
+                    document.getElementById("result").innerHTML = `Error: ${error}`;
+                });
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "wro1aEpfkity0fd7DTZ7t2FxWmDRRQhAlQqcdsDvnOg=",
+  "Source": "Enterprise.Manager.WebApi",
+  "BasePath": "_content/Enterprise.Manager.WebApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
